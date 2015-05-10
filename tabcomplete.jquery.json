@@ -3,8 +3,11 @@
     "title": "jQuery TabComplete",
     "description": "JQuery plug in for tab-completing text.",
     "keywords": [
-        "color",
-        "animation"
+        "jquery-plugin",
+		"complete",
+		"widget",
+		"ecosystem:jquery-ui",
+        "ecosystem:jquery"
     ],
     "version": "1.0.0",
     "author": {
