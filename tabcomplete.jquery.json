@@ -1,0 +1,29 @@
+{
+    "name": "tabcomplete",
+    "title": "jQuery TabComplete",
+    "description": "JQuery plug in for tab-completing text.",
+    "keywords": [
+        "color",
+        "animation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "CBenni",
+        "url": "https://github.com/CBenni/"
+    },
+    "licenses": [
+        {
+			"type": "GPLv2",
+			"url": "https://github.com/CBenni/tabcomplete/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/CBenni/tabcomplete/issues",
+    "homepage": "https://github.com/CBenni/tabcomplete",
+    "docs": "https://github.com/CBenni/tabcomplete",
+    "download": "https://github.com/CBenni/tabcomplete",
+    "dependencies": {
+        "jquery": ">=1.5",
+        "jquery-ui": ">=1.8",
+		"caret": ">=1.3"
+    }
+}
