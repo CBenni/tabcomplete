@@ -20,7 +20,7 @@ $.widget("cbenni.tabcomplete", {
 					var caretpos = $(this).caret();
 					var text = $(this).val()||$(this).text();
 					var start = (/\w+$/.exec(text.substr(0, caretpos)) || {index: caretpos}).index;
-					var end = c + (/^\w+/.exec(text.substr(caretpos)) || [""])[0].length;
+					var end = caretpos + (/^\w+/.exec(text.substr(caretpos)) || [""])[0].length;
 					plugin.textsplit = [text.substring(0, start), text.substring(start, end), text.substring(end + 1)];
 				}
 				// calculate the collection of strings actually eligible for suggestion, either by filtering or by executing the function specified
