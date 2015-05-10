@@ -17,7 +17,7 @@ $.widget("cbenni.tabcomplete", {
 				e.preventDefault();
 				if (plugin.tabtries == -1) {
 					var c = $(this).caret();
-					var t = $(this).val();
+					var t = $(this).val()||$(this).text();
 					var start = (/\w+$/.exec(t.substr(0, c)) || {index: c}).index;
 					var end = c + (/^\w+/.exec(t.substr(c)) || [""])[0].length;
 					var w = t.substring(start, end);
@@ -35,12 +35,14 @@ $.widget("cbenni.tabcomplete", {
 					if(plugin.tabtries >= b.length) plugin.tabtries = 0;
 					if(plugin.tabtries < 0) plugin.tabtries = b.length+plugin.tabtries;
 					$(this).val(plugin.ltbt[0] + b[plugin.tabtries] + plugin.ltbt[2]);
+					$(this).text(plugin.ltbt[0] + b[plugin.tabtries] + plugin.ltbt[2]);
 					$(this).caret(plugin.ltbt[0].length + b[plugin.tabtries].length);
 				}
 			}
 			else if(code == 27 && plugin.tabtries>=0)
 			{
 				$(this).val(plugin.ltbt[0] + plugin.ltbt[1] + plugin.ltbt[2]);
+				$(this).text(plugin.ltbt[0] + plugin.ltbt[1] + plugin.ltbt[2]);
 			}
 			else if(code != 16)
 			{
