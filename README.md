@@ -1,7 +1,7 @@
 # tabcomplete #
 JQuery plugin for tab-completing text, for example for usernames in a chat window.
 
-## usage ##
+## Usage ##
 
     $(selector).tabcomplete(options);
 	
