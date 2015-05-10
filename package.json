@@ -1,33 +1,33 @@
 {
-    "name": "cbenni-tabcomplete",
-    "title": "jQuery TabComplete",
-    "description": "JQuery plug in for tab-completing text.",
-    "keywords": [
-        "jquery-plugin",
-		"complete",
-		"widget",
-		"ecosystem:jquery-ui",
-        "ecosystem:jquery"
-    ],
-    "version": "1.0.2",
-    "author": {
-        "name": "CBenni",
-        "url": "https://github.com/CBenni/"
-    },
-    "licenses": [
-        {
-			"type": "GPLv2",
-			"url": "https://github.com/CBenni/tabcomplete/blob/master/LICENSE"
-        }
-    ],
-    "bugs": "https://github.com/CBenni/tabcomplete/issues",
-    "homepage": "https://github.com/CBenni/tabcomplete",
-    "docs": "https://github.com/CBenni/tabcomplete",
-    "download": "https://github.com/CBenni/tabcomplete",
-    "repository": "https://github.com/CBenni/tabcomplete",
-    "dependencies": {
-        "jquery": ">=1.5",
-        "jquery-ui": ">=1.8",
-		"caret": ">=1.3"
+  "name": "cbenni-tabcomplete",
+  "title": "jQuery TabComplete",
+  "description": "JQuery plug in for tab-completing text.",
+  "keywords": [
+    "jquery-plugin",
+    "complete",
+    "widget",
+    "ecosystem:jquery-ui",
+    "ecosystem:jquery"
+  ],
+  "version": "1.1.0",
+  "author": {
+    "name": "CBenni",
+    "url": "https://github.com/CBenni/"
+  },
+  "licenses": [
+    {
+      "type": "GPLv2",
+      "url": "https://github.com/CBenni/tabcomplete/blob/master/LICENSE"
     }
+  ],
+  "bugs": "https://github.com/CBenni/tabcomplete/issues",
+  "homepage": "https://github.com/CBenni/tabcomplete",
+  "docs": "https://github.com/CBenni/tabcomplete",
+  "download": "https://github.com/CBenni/tabcomplete",
+  "repository": "https://github.com/CBenni/tabcomplete",
+  "dependencies": {
+    "jquery": ">=1.5",
+    "jquery-ui": ">=1.8",
+    "caret": ">=1.3"
+  }
 }
